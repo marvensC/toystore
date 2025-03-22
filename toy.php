@@ -34,6 +34,7 @@
 
 	// call function 
 	$toy = get_toy_info($pdo, $toy_id);
+	
 // Closing PHP tag  ?> 
 
 <!DOCTYPE>
@@ -114,7 +115,7 @@
 
 			        <!-- Display address of manuf -->
 			        <p><strong>Address:</strong> 
-							<?= $toy['street']?>, <?= $toy['city']?>, <?= $toy['state']?> <?= $toy['ZipCode'] ?>
+							<?= $toy['Street']?>, <?= $toy['City']?>, <?= $toy['State']?> <?= $toy['ZipCode'] ?>
 						</p>
 
 			        <!-- Display phone of manuf -->
